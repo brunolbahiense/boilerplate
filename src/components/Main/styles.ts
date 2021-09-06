@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: #000;
+  color: #d9d9d9;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -12,19 +12,60 @@ export const Wrapper = styled.main`
   align-items: center;
   justify-content: center;
 `
+export const Box = styled.div`
+  background-color: #1c1f23;
+  padding: 3rem;
+  border-radius: 15px;
+`
 
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
+export const ClickWrapper = styled.div`
+  width: 40%;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`
+export const BoxWrapper = styled.div`
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: 4em;
 `
 
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 400;
+  color: #e01673;
+`
+export const Click = styled.button`
+  color: #d9d9d9;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  :hover {
+    /* background-color: #161616; */
+    color: #e01673;
+  }
+
+  svg {
+    background-color: transparent;
+    margin-right: 1rem;
+  }
 `
 
 export const Illustration = styled.img`
