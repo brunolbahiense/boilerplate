@@ -1,19 +1,31 @@
 import * as S from './styles'
+import { FaCoffee, FaCode } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Main = () => (
   <S.Wrapper>
-    <S.Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
-    <S.Title>React Avançado</S.Title>
+    <S.Title>BOILERPLATE</S.Title>
     <S.Description>
-      TypeScript, ReactJS, NextJS e Styled Components
+      Template base dos projetos desenvolvidos por Bluis
     </S.Description>
     <S.Illustration
       src="/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para uma tela com código."
     />
+    <S.ClickWrapper>
+      <Link href="/contact">
+        <S.Click>
+          <FaCoffee />
+          Contato
+        </S.Click>
+      </Link>
+      <Link href="/tech">
+        <S.Click>
+          <FaCode />
+          Tecnologias
+        </S.Click>
+      </Link>
+    </S.ClickWrapper>
   </S.Wrapper>
 )
 
