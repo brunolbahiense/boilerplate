@@ -11,6 +11,13 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 768px) {
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    margin: unset;
+    height: 105%;
+  }
 `
 export const Box = styled.div`
   background-color: #1c1f23;
@@ -27,6 +34,11 @@ export const ClickWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 export const BoxWrapper = styled.div`
   padding: 2rem;
@@ -35,6 +47,10 @@ export const BoxWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Title = styled.h1`
