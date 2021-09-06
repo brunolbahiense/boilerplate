@@ -1,5 +1,4 @@
-Novo Boilerplate criado para servir como base aos projetos  que utilizam NextJs!
+<h1>Bluis Boilerplate<h1/>
+###New Boilerplate created to serve as the basis for projects using NextJs, Containing Prettier and Eslint working together with VScode🤩
 
-Ja contendo o Prettier e Eslint funcionando juntamente com o VScode 🤩
-
-faça o 'git clone' do projeto e após a instalação, execute o yarn 🚀
+##just 'git clone' the project and, after installation, run yarn🚀
