@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from '../../styles/styles'
 import { FaCoffee, FaCode } from 'react-icons/fa'
 import Link from 'next/link'
 

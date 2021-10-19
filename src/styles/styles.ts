@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #000;
-  color: #d9d9d9;
+  background-color: ${(props) => props.theme.bg};
+  color: ${(props) => props.theme.gray};
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -14,13 +14,12 @@ export const Wrapper = styled.main`
   @media only screen and (max-width: 768px) {
     border: none;
     box-shadow: none;
-    width: 100%;
-    margin: unset;
-    height: 105%;
+    width: auto;
+    height: auto;
   }
 `
 export const Box = styled.div`
-  background-color: #1c1f23;
+  background-color: ${(props) => props.theme.grayD};
   padding: 3rem;
   border-radius: 15px;
 `
@@ -60,10 +59,10 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 400;
-  color: #e01673;
+  color: ${(props) => props.theme.pink};
 `
 export const Click = styled.button`
-  color: #d9d9d9;
+  color: ${(props) => props.theme.gray};
   font-size: 2rem;
   font-weight: 400;
   padding: 1.5rem;
@@ -72,10 +71,10 @@ export const Click = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   :hover {
-    /* background-color: #161616; */
-    color: #e01673;
+    color: ${(props) => props.theme.pink};
   }
 
   svg {
@@ -85,6 +84,6 @@ export const Click = styled.button`
 `
 
 export const Illustration = styled.img`
-  margin-top: 3rem;
+  margin-top: 15em;
   width: min(30rem, 100%);
 `

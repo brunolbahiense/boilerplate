@@ -1,4 +1,4 @@
-import * as S from '../components/Main/styles'
+import * as S from '../styles/styles'
 import { FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'
 
