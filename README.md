@@ -1,6 +1,6 @@
 # ![image_2021-09-06_16-09-23](https://user-images.githubusercontent.com/47977354/132254857-0690192e-e80f-4077-a765-e10b4334863b.png)
 
-## New Boilerplate created for projects using NextJs, Containing Prettier and Eslint working together with VScode🤩 
+## New Boilerplate created for projects using NextJs, Containing Prettier and Eslint working together with VScode 🤩 
 ### Please, pre-install Eslint and Prettier at your VScode 🛑
 
 ### Technologies Used:
